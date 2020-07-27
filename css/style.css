@@ -234,19 +234,25 @@ img {
   line-height: 1.71;
   color: var(--primary-text-color);
 }
+
 .advantages-list-item {
   width: 270px;
+}
+
+.advantages-icon-box {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
 }
 
 .advantages-icon {
   display: block;
   width: 70px;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 55px;
-  background-color: #f5f4fa;
 }
+
 .advantages-list-item:not(:last-child) {
   margin-right: 30px;
 }
